@@ -183,9 +183,11 @@ DWORD64 FindSyscallReturnAddress(DWORD64 functionAddress, WORD syscallNumber) {
 
 #pragma endregion
 
+#pragma optimize("", off)
 UINT64 PrepareSyscall(char* functionName) {
     return ntFunctionAddress;
 }
+#pragma optimize("", on)
 
 bool SetMainBreakpoint() {
     // Dynamically find the GetThreadContext and SetThreadContext functions

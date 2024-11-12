@@ -91,9 +91,7 @@ The debug verbosity can be turned on or off by changing the `HWSYSCALLS_DEBUG` d
 
 ## Setup
 
-To compile this project you will need Visual Studio 2019 and forward.
-It is important to note that this project was made only for x64 environments and needs to be compiled without optimization.
-You can disable it from Project Settings -> C/C++ -> Optimization -> Optimization (Disabled /Od).
+To compile this project you will need Visual Studio 2019 and forward. Furthermore, it is important to note that this project was made only for x64 environments.
 
 ## Example
 
